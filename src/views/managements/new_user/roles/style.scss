@@ -1,0 +1,68 @@
+@import './variable.scss';
+
+// Table
+.card__role {
+    .col__search {
+        margin-right: 7px;
+    }
+
+    .whole-table__role {
+        padding: 0 21px;
+
+        .table__role {
+            border: 1px solid rgba(0, 0, 0, 0.12);
+
+            .rdt_TableHead {
+                .rdt_TableHeadRow {
+                    background-color: #28C76F;
+
+                    .rdt_TableCol {
+                        &:not(:last-child) {
+                            border-right: 1px solid rgba(0, 0, 0, .12) !important;
+                        }
+
+                        .sc-cwHptR {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .table__role {
+            .rdt_TableBody {
+                .rdt_TableRow {
+                    .rdt_TableCell {
+                        &:not(:last-child) {
+                            border-right: 1px solid rgba(0, 0, 0, .12) !important;
+                        }
+
+                        #btn-trash,
+                        #btn-edit {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .label__search {
+        min-width: fit-content;
+    }
+}
+
+.breadcrumb__page {
+    margin-bottom: 1rem;
+    .breadcrumb__btn {
+        padding: 0;
+        border: none;
+        background-color: transparent !important;
+        color: $breadcrumb-btn !important;
+        vertical-align: baseline;
+        font-weight: initial;
+    }
+}

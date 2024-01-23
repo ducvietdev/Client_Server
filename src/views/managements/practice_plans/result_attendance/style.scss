@@ -1,0 +1,134 @@
+@import './variable.scss';
+
+// Table
+.card__attendance {
+    flex: 0 0 20%;
+
+    .options__score {
+        padding: 0 7px;
+    }
+
+    .col__select {
+        margin-left: 7px;
+    }
+    .whole-table__attendance:nth-child(2) {
+        flex: 1;
+    }
+    .whole-table__attendance {
+        padding: 0 21px;
+        
+        .table__attendance__btn {
+            border: 1px solid rgba(0, 0, 0, 0.12);
+
+            .rdt_TableHead {
+                .rdt_TableHeadRow {
+                    background-color: #28C76F;
+
+                    .rdt_TableCol {
+                        border-left: 1px solid rgba(0, 0, 0, .12) !important;
+                        max-width: 100%;   
+                        .sc-cwHptR {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            white-space: break-spaces;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }
+        .row__attendance {
+            .col__search {
+                flex: 1;
+            }
+        }
+
+
+        .table__attendance__btn {
+            .rdt_TableBody {
+                .rdt_TableRow {
+                    .rdt_TableCell {
+                        min-width: 100% !important;
+                        padding: 0;
+                        display: contents !important;
+        
+                        .btnTableTl {
+                            background-color: #fff !important;
+                            color: #000 !important;
+                            border: none;
+                            box-shadow: none !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .table__attendance {
+            border: 1px solid rgba(0, 0, 0, 0.12);
+
+            .rdt_TableHead {
+                .rdt_TableHeadRow {
+                    background-color: #28C76F;
+
+                    .rdt_TableCol {
+                        border-left: 1px solid rgba(0, 0, 0, .12) !important;
+                        max-width: 100%;
+                        .sc-cwHptR {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            white-space: break-spaces;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+
+            .rdt_TableBody {
+                .rdt_TableRow {
+                    .rdt_TableCell {
+                        max-width: 100% !important;
+                        padding: 0;
+                        .btnTableTl {
+                            background-color: #fff !important;
+                            color: #000 !important;
+                            border: none;
+                            box-shadow: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .input__features {
+        justify-content: space-between !important;
+        .label__select {
+            min-width: fit-content;
+        }
+        .react-select {
+            width: 100%;
+        }
+    }
+}
+
+.breadcrumb__page {
+    margin-bottom: 1rem;
+
+    .breadcrumb__btn {
+        padding: 0;
+        border: none;
+        background-color: transparent !important;
+        color: $breadcrumb-btn !important;
+        vertical-align: baseline;
+        font-weight: initial;
+    }
+}
+
+.col__btn {
+    margin-left: auto;
+
+    .btn__search {
+        box-shadow: none;
+    }
+}

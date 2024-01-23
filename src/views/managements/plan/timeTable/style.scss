@@ -1,0 +1,23 @@
+.fc-daygrid table .fc-day-today {
+    background-color: #fff !important;
+    box-shadow: 0 0 4px 4px rgba($color: #ffffff, $alpha: 2.0);
+}
+
+.fc-daygrid table .fc-daygrid-event {
+    background-color: #f3f337;
+    border: 1px #fff solid;
+}
+
+
+.fc-header-toolbar .fc-toolbar-chunk .fc-today-button {
+    background-color: transparent;
+    border: none;
+    margin-left: 14px;
+    color: #000;
+}
+
+.fc-header-toolbar .fc-toolbar-chunk .fc-today-button:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

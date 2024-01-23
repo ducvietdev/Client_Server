@@ -1,0 +1,9 @@
+.btn-featured {
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+    &:hover, &:active, &:focus {
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+}

@@ -1,0 +1,36 @@
+
+// Modal
+.modal-btn {
+    width: min-content;
+    padding: 6px;
+}
+
+.bs-stepper-header {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1);
+    padding: 8px !important;
+    align-items: center;
+    justify-content: center;
+}
+.bs-stepper-content {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    #step__chart {
+        button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 1rem 0;
+        }
+    }
+    #step__details {
+        button {
+            margin: 1rem 0;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

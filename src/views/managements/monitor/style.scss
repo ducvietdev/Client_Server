@@ -1,0 +1,82 @@
+@import './variable.scss';
+
+// Table
+.card__monitor {
+    .title__monitor__children {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .col__search__children {
+        padding-left: 35px;
+    }
+
+    .col__btn__children {
+        padding-right: 35px;
+    }
+
+    .col__search {
+        margin-right: 7px;
+    }
+
+    .whole-table__monitor {
+        padding: 0 21px;
+
+        .table__monitor {
+            border: 1px solid rgba(0, 0, 0, 0.12);
+
+            .rdt_TableHead {
+                .rdt_TableHeadRow {
+                    background-color: #28C76F;
+
+                    .rdt_TableCol {
+                        border-left: 1px solid rgba(0, 0, 0, .12) !important;
+
+                        .sc-cwHptR {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            white-space: break-spaces;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .table__monitor {
+            .rdt_TableBody {
+                .rdt_TableRow {
+                    .rdt_TableCell {
+                        border-left: 1px solid rgba(0, 0, 0, .12) !important;
+
+                    }
+
+                    #btn-trash,
+                    #btn-edit {
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .label__search {
+        min-width: fit-content;
+    }
+
+    .input__features {
+        justify-content: space-between !important;
+        .label__select {
+            min-width: fit-content;
+        }
+        .react-select {
+            width: 100%;
+        }
+    }
+}
+
+.breadcrumb__page {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,103 @@
+@import './variable.scss';
+
+// Table
+.card__score__interface {
+    flex: 0 0 20%;
+
+    .options__score {
+        padding: 0 7px;
+    }
+
+    .whole-table__score__interface {
+        padding: 0 21px;
+        .table__score__interface__btn {
+            border: 1px solid rgba(0, 0, 0, 0.12);
+
+            .rdt_TableHead {
+                .rdt_TableHeadRow {
+                    background-color: #28C76F;
+
+                    .rdt_TableCol {
+                        border-left: 1px solid rgba(0, 0, 0, .12) !important;
+
+                        .sc-cwHptR {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            white-space: break-spaces;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }
+        .row__score__interface {
+            .col__search {
+                flex: 1;
+            }
+        }
+
+        .table__score__interface__btn {
+            .rdt_TableBody {
+                .rdt_TableRow {
+                    .rdt_TableCell {
+                        min-width: 100% !important;
+                        padding: 0;
+                        display: contents !important;
+        
+                        .btnTableOg,
+                        .btnTableSt {
+                            background-color: #fff !important;
+                            color: #000 !important;
+                            border: none;
+                            box-shadow: none !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .table__score__interface {
+            border: 1px solid rgba(0, 0, 0, 0.12);
+
+            .rdt_TableHead {
+                .rdt_TableHeadRow {
+                    background-color: #28C76F;
+
+                    .rdt_TableCol {
+                        border-left: 1px solid rgba(0, 0, 0, .12) !important;
+
+                        .sc-cwHptR {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            white-space: break-spaces;
+                            text-align: center;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb__page {
+    margin-bottom: 1rem;
+
+    .breadcrumb__btn {
+        padding: 0;
+        border: none;
+        background-color: transparent !important;
+        color: $breadcrumb-btn !important;
+        vertical-align: baseline;
+        font-weight: initial;
+    }
+}
+
+.col__btn {
+    margin-left: auto;
+
+    .btn__search {
+        box-shadow: none;
+    }
+}
